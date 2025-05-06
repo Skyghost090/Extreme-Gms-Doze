@@ -13,5 +13,5 @@ while true; do
             pm enable com.google.android.gms
         fi
     fi
-    sleep 0.5
+    sleep 5
 done
