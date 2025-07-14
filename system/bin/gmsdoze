@@ -11,8 +11,9 @@ while true; do
             cmd notification set_dnd none
             pm disable-user --user 0 com.google.android.gms
             pm clear com.android.vending
-        else
+            sleep 3
             cmd notification set_dnd all
+        else
             pm enable com.google.android.gms
         fi
     fi
