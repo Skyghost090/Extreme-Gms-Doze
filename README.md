@@ -21,11 +21,8 @@
 
 ---
 
-## ⚠️ IMPORTANT
-### How to fix gms notification bug
-https://github.com/user-attachments/assets/5864f006-fae4-435d-8765-ab1732eb2457
-
-
+## ⚠️ IMPORTANT (How to fix gms notification bug)
+Go to App Donfig -> Notifications -> Show Categories -> Disable Play Services availability category
 
 ## 🛠️ Installation
 
