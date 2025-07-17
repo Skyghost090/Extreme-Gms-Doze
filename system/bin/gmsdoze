@@ -8,11 +8,8 @@ while true; do
     if [[ $(getprop sys.boot_completed) == 1 ]]; then
         screenstate=$(dumpsys display | grep -e "mState=" -e "mScreenState" | sed -n '2p' | tr = ' ' | awk '{print $2}')
         if [[ $screenstate == "OFF" ]]; then
-            cmd notification set_dnd none
             pm disable-user --user 0 com.google.android.gms
             pm clear com.android.vending
-            sleep 3
-            cmd notification set_dnd alarms
         else
             pm enable com.google.android.gms
         fi
