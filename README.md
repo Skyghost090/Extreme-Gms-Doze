@@ -21,6 +21,12 @@
 
 ---
 
+## ⚠️ IMPORTANT
+### How to fix gms notification bug
+https://github.com/user-attachments/assets/5864f006-fae4-435d-8765-ab1732eb2457
+
+
+
 ## 🛠️ Installation
 
 1. Download the **Extreme GMS Doze** `.zip` file
